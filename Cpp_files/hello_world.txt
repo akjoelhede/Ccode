@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+int main(int argc, char* argv[])
+{
+	std::cout << "Hello you\n";
+	std::cout << "ding!" << "\a" << "\t";
+	std::string name; 
+	std::cout << "Enter your name and then hit ENTER \n";
+	std::getline(std::cin, name);
+	std::cout << "WELCOME sir " << name << "\n";
+	int account_number, pin;
+	std::cout << "Please enter your account number\n";
+	std::cout << "and then your pin followed by RETURN \n";
+	std::cin >> account_number >> pin;
+	std::cout << "Thank you sir \n";
+
+
+
+	return 0;
+
+}

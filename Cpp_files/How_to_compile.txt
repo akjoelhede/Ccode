@@ -1,0 +1,1 @@
+clang++ -Wall test.cc -o test
